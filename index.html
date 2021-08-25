@@ -139,6 +139,7 @@
             new Ajax(url + 'analytics/visitor/?code=1', function (b) {
                 new Ajax(url + 'analytics/visitor/?code=0', function (d) {
                     var c = parseInt(a) + 1;
+                    d = d - b;
                     var myChart = new Chart(ctx, {
                         type: 'bar',
                         data: {
