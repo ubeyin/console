@@ -1,0 +1,416 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * stylesheet:
+ *   - https://ubeyin.github.io/style.css
+ *
+ * © 2021-2022 Ubeyin Co. All Rights Reserved.
+ */
+
+@font-face {
+    font-family: "montserrat";
+    src: url("montserrat/montserrat.woff2") format("woff2"), url("montserrat/montserrat.woff") format("woff"), url("montserrat/montserrat.otf") format("opentype");
+    font-display: auto;
+    font-style: normal;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: "montserrat", serif;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all .31s ease;
+    -moz-transition: all .31s ease;
+    -o-transition: all .31s ease;
+    -ms-transition: all .31s ease;
+    transition: all .31s ease;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+nav {
+    z-index: 10000;
+}
+
+/****** THEME ******/
+:root {
+    --red: #D32F2F !important;
+    --pink: #C2185B !important;
+    --purple: #7B1FA2 !important;
+    --darkpurpler: #512DA8 !important;
+    --indigo: #303F9F !important;
+    --blue: #1976D2 !important;
+    --lightblue: #0288D1 !important;
+    --cyan: #0097A7 !important;
+    --teal: #00796B !important;
+    --green: #388E3C !important;
+    --lightgreen: #689F38 !important;
+    --lime: #AFB42B !important;
+    --yellow: #FBC02D !important;
+    --amber: #FFA000 !important;
+    --orange: #F57C00 !important;
+    --darkorange: #E64A19 !important;
+    --brown: #5D4037 !important;
+    --gray: #616161 !important;
+    --bluegray: #455A64 !important;
+    --white: white !important;
+    --black: black !important;
+}
+
+.red {
+    background-color: #D32F2F !important;
+    color: white;
+}
+
+.pink {
+    background-color: #C2185B !important;
+    color: white;
+}
+
+.purple {
+    background-color: #7B1FA2 !important;
+    color: white;
+}
+
+.darkpurple {
+    background-color: #512DA8 !important;
+    color: white;
+}
+
+.indigo {
+    background-color: #303F9F !important;
+    color: white;
+}
+
+.blue {
+    background-color: #1976D2 !important;
+    color: white;
+}
+
+.lightblue {
+    background-color: #0288D1 !important;
+    color: black;
+}
+
+.cyan {
+    background-color: #0097A7 !important;
+    color: black;
+}
+
+.teal {
+    background-color: #00796B !important;
+    color: white;
+}
+
+.green {
+    background-color: #388E3C !important;
+    color: white;
+}
+
+.lightgreen {
+    background-color: #689F38 !important;
+    color: white;
+}
+
+.lime {
+    background-color: #AFB42B !important;
+    color: black;
+}
+
+.yellow {
+    background-color: #FBC02D !important;
+    color: black;
+}
+
+.amber {
+    background-color: #FFA000 !important;
+    color: black;
+}
+
+.orange {
+    background-color: #F57C00 !important;
+    color: black;
+}
+
+.darkorange {
+    background-color: #E64A19 !important;
+    color: black;
+}
+
+.brown {
+    background-color: #5D4037 !important;
+    color: white;
+}
+
+.gray {
+    background-color: #616161 !important;
+    color: white;
+}
+
+.bluegray {
+    background-color: #455A64 !important;
+}
+
+.white {
+    background-color: white !important;
+    color: #455A64;
+}
+
+.black {
+    background-color: black !important;
+    color: #fff;
+}
+
+
+.text-red {
+    color: #D32F2F !important;
+
+}
+
+.text-pink {
+    color: #C2185B !important;
+
+}
+
+.text-purple {
+    color: #7B1FA2 !important;
+
+}
+
+.text-darkpurple {
+    color: #512DA8 !important;
+
+}
+
+.text-indigo {
+    color: #303F9F !important;
+
+}
+
+.text-blue {
+    color: #1976D2 !important;
+
+}
+
+.text-lightblue {
+    color: #0288D1 !important;
+
+}
+
+.text-cyan {
+    color: #0097A7 !important;
+
+}
+
+.text-teal {
+    color: #00796B !important;
+
+}
+
+.text-green {
+    color: #388E3C !important;
+
+}
+
+.text-lightgreen {
+    color: #689F38 !important;
+
+}
+
+.text-lime {
+    color: #AFB42B !important;
+
+}
+
+.text-yellow {
+    color: #FBC02D !important;
+
+}
+
+.text-amber {
+    color: #FFA000 !important;
+
+}
+
+.text-orange {
+    color: #F57C00 !important;
+
+}
+
+.text-darkorange {
+    color: #E64A19 !important;
+
+}
+
+.text-brown {
+    color: #5D4037 !important;
+
+}
+
+.text-gray {
+    color: #616161 !important;
+
+}
+
+.text-bluegray {
+    color: #455A64 !important;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-black {
+    color: black !important;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    color: white;
+    background: radial-gradient(circle, transparent 1%, rgba(255, 255, 255, 0.2) 1%) center/15000%;
+}
+
+.ripple:active {
+    background-size: 100%;
+    transition: background 0s;
+}
+
+/****** COMPONENTS ******/
+
+
+button {
+    border: none;
+    border-radius: 2px;
+    padding: 9px 18px;
+    font-size: 12px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+}
+
+button.large {
+    border: none;
+    border-radius: 2px;
+    padding: 12px 18px;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: white;
+    background-color: #2196f3;
+    box-shadow: 0 0 4px #999;
+    outline: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    transform: scale(1.051);
+}
+
+.alert {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 18px 13px;
+    padding-bottom: 9.5px;
+    background-color: #fff;
+}
+
+.alert .body {
+    font-size: 15px;
+}
+
+.alert.bb {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.alert .footer {
+    text-align: right;
+    display: block;
+    margin-top: 10px;
+}
+
+.alert .footer button {
+    background-color: transparent !important;
+    font-size: 14px;
+    box-shadow: none;
+    margin-right: 10px;
+    color: var(--purple);
+    font-weight: 900;
+}
+
+.box {
+    padding: 15px;
+    background-color: white;
+    border-radius: .4rem;
+    margin: auto;
+}
+
+.oua .box {
+    min-height: 300px;
+    min-width: 300px;
+    max-width: 490px !important;
+}
+
+.oas {
+    overflow-x: scroll;
+    max-width: 720px;
+    margin: auto;
+}
+
+.oas .box {
+    min-height: 140px;
+    min-width: 140px;
+    max-width: 140px;
+    margin: 0;
+}
+
+/********************/
+
+.option {
+    padding: 5px 14px;
+    border-radius: .4rem;
+    user-select: none;
+    color: var(--gray);
+}
+
+.option.active {
+    filter: invert(34%) sepia(91%) saturate(2023%) hue-rotate(179deg) brightness(93%) contrast(98%);
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.option:hover {
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+.option img {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.option p {
+   margin: 0;
+   font-size: 14px;
+}
